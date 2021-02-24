@@ -16,6 +16,10 @@ sdk version
 sdk install sbt
 ```
 
+Docs:
+
+https://www.scala-sbt.org/1.x/docs/
+
 ### Metals VSCode Extension
 
 https://scalameta.org/metals/docs/editors/vscode.html
