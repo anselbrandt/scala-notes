@@ -23,3 +23,13 @@ https://scalameta.org/metals/docs/editors/vscode.html
 Install from [Marketplace](https://marketplace.visualstudio.com/items?itemName=scalameta.metals)
 
 Next, open a directory containing your Scala code. The extension activates when the main directory contains `build.sbt` or `build.sc` file, a Scala file is opened, which includes `*.sbt`, `*.scala` and `*.sc` file, or a standard Scala directory structure `src/main/scala` is detected.
+
+Add to `.gitignore`
+
+```
+# ~/.gitignore
+.metals/
+.bloop/
+.ammonite/
+metals.sbt
+```
