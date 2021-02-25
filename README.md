@@ -39,3 +39,21 @@ Add to `.gitignore`:
 .ammonite/
 metals.sbt
 ```
+
+### Scalafmt
+
+First install [Coursier](https://get-coursier.io/docs/cli-installation)
+
+```
+$ curl -fLo cs https://git.io/coursier-cli-"$(uname | tr LD ld)"
+$ chmod +x cs
+$ ./cs install cs
+$ rm cs
+```
+
+Use `coursier` to install `scalafmt`
+
+```
+cs install scalafmt
+scalafmt --version
+```
