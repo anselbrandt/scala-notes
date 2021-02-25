@@ -57,3 +57,21 @@ Use `coursier` to install `scalafmt`
 cs install scalafmt
 scalafmt --version
 ```
+### Install Scala to Run Scala Scripts, Install the Interpreter
+
+```
+sdk install scala
+```
+
+### Execute Scala Scripts Without Having to Type Out File Extension (.scala)
+
+Create a small bash script called `s` or whatever you want:
+
+```
+#!/bin/bash
+scala $1.scala ${@:2}
+```
+
+`${@:2}` will pass any args to your script.
+
+Make sure to `chmod +x s` and that `export PATH=$PATH:$HOME/bin` is in your shell profile and sourced.
