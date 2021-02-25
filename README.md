@@ -75,3 +75,9 @@ scala $1.scala ${@:2}
 `${@:2}` will pass any args to your script.
 
 Make sure to `chmod +x s` and that `export PATH=$PATH:$HOME/bin` is in your shell profile and sourced.
+
+You can now execute any Scala script as:
+
+```
+s name_of_your_script arg0 arg1 arg2...
+```
