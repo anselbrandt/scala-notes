@@ -87,7 +87,9 @@ s name_of_your_script arg0 arg1 arg2...
 If multiple `main` classes:
 
 Run:
+
 `sbt`
 
 Then:
+
 `runMain name_of_main_class`
