@@ -84,7 +84,7 @@ s name_of_your_script arg0 arg1 arg2...
 
 ## Running with SBT
 
-If multiple `main` files:
+If multiple `main` classes:
 
 Run:
 `sbt`
