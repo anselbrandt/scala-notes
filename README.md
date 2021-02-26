@@ -81,3 +81,13 @@ You can now execute any Scala script as:
 ```
 s name_of_your_script arg0 arg1 arg2...
 ```
+
+### Running with SBT
+
+If multiple `main` files:
+
+Run:
+`sbt`
+
+Then:
+`runMain name_of_file`
