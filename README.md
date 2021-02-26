@@ -90,4 +90,4 @@ Run:
 `sbt`
 
 Then:
-`runMain name_of_file`
+`runMain name_of_main_class`
