@@ -82,7 +82,7 @@ You can now execute any Scala script as:
 s name_of_your_script arg0 arg1 arg2...
 ```
 
-## Running with SBT
+## Executing with sbt
 
 If multiple `main` classes:
 
